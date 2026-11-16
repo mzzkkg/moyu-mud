@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: moyu-mud
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
